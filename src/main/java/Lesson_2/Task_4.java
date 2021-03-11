@@ -14,17 +14,9 @@ public class Task_4 {
         for (int i = 0; i < myMassive.length; i++) {
             for (int j = 0; j < myMassive[i].length; j++) {
                 if(i==j) myMassive[i][j] = 1;
-            }
-        }
-
-        for (int i = 0; i < myMassive.length; i++) {
-            for (int j = 0; j < myMassive[i].length; j++) {
                 System.out.print(myMassive[i][j]+" ");
             }
             System.out.println();
         }
-
-
-
     }
 }
