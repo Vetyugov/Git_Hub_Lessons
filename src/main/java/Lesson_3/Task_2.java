@@ -40,7 +40,9 @@ public class Task_2 {
 
     public static void makeMask(String mainWord, String readWord) {
         for (int i = 0; i < mainWord.length(); i++) {
-            if (mainWord.charAt(i) == readWord.charAt(i)){
+            if (readWord.length()-1 < i){
+                System.out.print("#");
+            } else if (mainWord.charAt(i) == readWord.charAt(i)){
                 System.out.print(mainWord.charAt(i));
             } else System.out.print("#");
         }
