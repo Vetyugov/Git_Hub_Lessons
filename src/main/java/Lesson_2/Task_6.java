@@ -8,8 +8,11 @@ checkBalance([1, 1, 1, || 2, 1]) → true, граница показана си�
  */
 public class Task_6 {
     public static void main(String[] args) {
-        int[] myArray = {2, 2, 2, 1, 2, 2, 10, 1};
-        System.out.println(checkBalance(myArray));
+        int[] myArray = {2, 2};
+        if (myArray.length <=1){
+            System.out.println("Массив, состоящий из 1 элемента и менее не может быть симметричным");
+        }
+        else System.out.println(checkBalance(myArray));
     }
     //Чтобы метод выдавал только true или false необходимо закоментить все выводы в методе,
     // а так зато выводит как в условии))))
