@@ -1,4 +1,5 @@
 package Level_2_Lesson_2;
+//Исключение
 
 class MyArraySizeException extends ArrayIndexOutOfBoundsException{
 
