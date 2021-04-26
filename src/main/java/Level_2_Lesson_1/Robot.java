@@ -1,6 +1,6 @@
 package Level_2_Lesson_1;
 
-public class Robot implements actions {
+public class Robot implements Actions {
 
     private int maxDistance;
     private int maxHeight;

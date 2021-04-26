@@ -22,7 +22,7 @@ public class Main {
 
         String [][] myArray2 = {
                 {"1", "2", "3", "4"},
-                {"А", "6", "7", "8"},
+                {"5", "6", "7", "8"},
                 {"9", "10", "11", "в"},
                 {"13", "14", "15", "16"}
         };
@@ -46,11 +46,14 @@ public class Main {
     public static void arrayToIntAndSum(String[][] myArray) throws MyArrayDataException, MyArraySizeException {
 
         try{
-            if ((myArray.length != 4) || (myArray[0].length != 4)){
+            if (myArray.length != 4){
                 throw new MyArraySizeException();
             }
             int sum = 0;
             for (int i = 0; i <myArray.length ; i++) {
+                if (myArray[i].length != 4){
+                    throw new MyArraySizeException();
+                }
                 for (int j = 0; j < myArray[i].length; j++) {
                     try {
                         sum += Integer.parseInt(myArray[i][j]);

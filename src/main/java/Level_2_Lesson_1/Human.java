@@ -1,6 +1,6 @@
 package Level_2_Lesson_1;
 
-public class Human implements actions {
+public class Human implements Actions {
 
     private int maxDistance;
     private int maxHeight;
