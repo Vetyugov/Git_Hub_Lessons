@@ -1,4 +1,5 @@
 package Level_2_Lesson_3;
+//Всё верно)
 
 import java.util.HashMap;
 import java.util.Map;

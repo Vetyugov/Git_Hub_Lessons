@@ -5,9 +5,9 @@ public class Task_2 {
         TelephoneDirectory myTelephoneDirectory = new TelephoneDirectory();
         myTelephoneDirectory.add("Пупкин", "8-800-555-00-00");
         myTelephoneDirectory.add("Пупкин", "8-800-555-35-35");
-        myTelephoneDirectory.get("Пупкин");
+        System.out.println("Пупкин:" + myTelephoneDirectory.get("Пупкин"));
         myTelephoneDirectory.add("Васечкин", "8-999-999-99-99");
-        myTelephoneDirectory.get("Васечкин");
-        myTelephoneDirectory.get("Пёрышкин");
+        System.out.println("Васечкин" + myTelephoneDirectory.get("Васечкин"));
+        System.out.println("Пёрышкин" + myTelephoneDirectory.get("Пёрышкин"));
     }
 }

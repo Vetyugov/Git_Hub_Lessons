@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class TelephoneDirectory {
     private ArrayList<String> numbers;
-    private HashMap<String, ArrayList> telephoneDirectory;
+    private HashMap<String, ArrayList<String>> telephoneDirectory;
 
 
     public TelephoneDirectory() {
@@ -13,17 +13,18 @@ public class TelephoneDirectory {
     }
 
     public void add (String secondName, String number){
-        this.numbers = new ArrayList<>();
+
         if (telephoneDirectory.containsKey(secondName)) {
             this.numbers = telephoneDirectory.get(secondName);
+        } else{
+            this.numbers = new ArrayList<>();
         }
         this.numbers.add(number);
         this.telephoneDirectory.put(secondName,this.numbers);
     }
 
-    public void get(String secondName){
-        this.numbers = telephoneDirectory.get(secondName);
-        System.out.println(secondName+": "+numbers);
+    public ArrayList<String> get(String secondName){
+        return this.numbers;
     }
 
 }
