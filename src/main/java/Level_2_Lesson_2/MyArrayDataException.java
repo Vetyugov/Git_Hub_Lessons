@@ -1,5 +1,5 @@
 package Level_2_Lesson_2;
-//Исключение
+//Исключение 1
     class MyArrayDataException extends NumberFormatException{
         private String position;
         MyArrayDataException (String position){
