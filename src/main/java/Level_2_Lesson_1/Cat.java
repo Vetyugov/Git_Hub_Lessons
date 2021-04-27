@@ -1,6 +1,6 @@
 package Level_2_Lesson_1;
 
-public class Cat implements actions {
+public class Cat implements Actions {
 
     private int maxDistance;
     private int maxHeight;
