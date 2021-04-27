@@ -1,5 +1,5 @@
 package Level_2_Lesson_5;
-
+//Многопоточность
 import java.util.Arrays;
 
 public class Main {
