@@ -1,6 +1,6 @@
 package Level_2_Lesson_1;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         //Создаём массив препятствий
         Obstacle [] obstacles = {
@@ -12,7 +12,7 @@ public class main {
                 new Wall(10)
         };
         //Создаем массив участников
-        actions[] players = {
+        Actions[] players = {
                 new Cat(30, 5),
                 new Human(100, 7),
                 new Robot(200, 12)
@@ -21,7 +21,7 @@ public class main {
         players[0].run(obstacles[2].getValue());
 
         int i = 1;
-        for (actions player: players) {
+        for (Actions player: players) {
             System.out.println("Игрок № "+i);
             i++;
             for (Obstacle obstacle: obstacles) {
