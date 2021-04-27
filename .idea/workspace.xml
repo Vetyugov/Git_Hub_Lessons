@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b221542-9ff7-4c17-a254-8189b02eb06b" name="Default Changelist" comment="Homework. Java part 2. Lesson 3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_03_2021_9_48_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_03_2021_9_48__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="0b221542-9ff7-4c17-a254-8189b02eb06b" name="Default Changelist" comment="не понял, что произошло">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +22,12 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="master" />
+    <option name="BRANCH" value="Level_2_Lesson_3" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Level_2_Lesson_3" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.4028777" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Level_2_Lesson_2.Main" />
       <module name="Git_Hub_Lessons" />
@@ -105,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.Task_2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level_2_Lesson_5.Main" />
       <module name="Git_Hub_Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.*" />
+          <option name="PATTERN" value="Level_2_Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,7 +138,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task_2" />
       <item itemvalue="Application.Task_4" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main" />
@@ -153,11 +145,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Task_4" />
-        <item itemvalue="Application.Task_2" />
       </list>
     </recent_temporary>
   </component>
