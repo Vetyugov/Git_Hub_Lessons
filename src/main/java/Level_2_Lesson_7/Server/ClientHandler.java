@@ -1,4 +1,5 @@
 package Level_2_Lesson_7.Server;
+//Класс клиента
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -15,6 +16,8 @@ public class ClientHandler {
     private String privateName;
     private String privateMsg;
 
+    private long startTime;
+
     public String getName() {
         return name;
     }
@@ -26,10 +29,27 @@ public class ClientHandler {
             this.in = new DataInputStream(socket.getInputStream());
             this.out = new DataOutputStream(socket.getOutputStream());
             this.name = "";
+            this.startTime = System.currentTimeMillis();
+            new Thread(()->{
+                while (true){
+                    try {
+                        if ((System.currentTimeMillis() - startTime > 30000) && (this.name == "")){
+                            out.writeUTF("/end");
+                            this.socket.close();
+                            break;
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }).start();
+
             new Thread(() -> {
                 try {
-                    authentication();
-                    readMessages();
+                    if (!this.socket.isClosed()){
+                        authentication();
+                        readMessages();
+                    }
                 } catch (IOException e) {
                     e.printStackTrace();
                 } finally {
@@ -42,6 +62,7 @@ public class ClientHandler {
     }
 
     public void authentication() throws IOException {
+
         while (true) {
             String str = in.readUTF();
             if (str.startsWith("/auth")) {
@@ -97,7 +118,9 @@ public class ClientHandler {
 
     public void closeConnection() {
         myServer.unsubscribe(this);
-        myServer.broadcastMsg(name + " вышел из чата");
+        if(this.name != ""){
+            myServer.broadcastMsg(name + " вышел из чата");
+        }
         try {
             in.close();
         } catch (IOException e) {

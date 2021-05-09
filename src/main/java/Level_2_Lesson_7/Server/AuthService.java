@@ -1,4 +1,5 @@
 package Level_2_Lesson_7.Server;
+//Интерфейс аунтентификации
 
 public interface AuthService {
     void start();

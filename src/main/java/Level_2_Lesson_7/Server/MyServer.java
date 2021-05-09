@@ -1,9 +1,5 @@
 package Level_2_Lesson_7.Server;
-
-
-import Level_2_Lesson_7.Server.AuthService;
-import Level_2_Lesson_7.Server.BaseAuthService;
-import Level_2_Lesson_7.Server.ClientHandler;
+//Серверное приложение
 
 import java.io.IOException;
 import java.net.ServerSocket;

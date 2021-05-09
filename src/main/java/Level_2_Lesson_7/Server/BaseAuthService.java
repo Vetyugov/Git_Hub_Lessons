@@ -1,5 +1,5 @@
 package Level_2_Lesson_7.Server;
-
+//Реализация инферфейса авторизации
 import java.util.ArrayList;
 import java.util.List;
 
