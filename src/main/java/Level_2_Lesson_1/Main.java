@@ -1,9 +1,12 @@
-package Level_2_Lesson_1;
+package main.java.Level_2_Lesson_1;
+
+
+import Level_2_Lesson_1.*;
 
 public class Main {
     public static void main(String[] args) {
         //Создаём массив препятствий
-        Obstacle [] obstacles = {
+        Obstacle[] obstacles = {
                 new Treadmill(20),
                 new Wall(4),
                 new Treadmill(50),

@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b221542-9ff7-4c17-a254-8189b02eb06b" name="Default Changelist" comment="Homework. Java part 2. Lesson 3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_03_2021_9_48_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_03_2021_9_48__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="0b221542-9ff7-4c17-a254-8189b02eb06b" name="Default Changelist" comment="Homework. Java part 3. Lesson 1&#10;Все задания выполнены.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Client/ClientApp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Client/ClientApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Client/ClientApp3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Server/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Server/BaseAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Server/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Server/JBDCApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Server/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Server/ServerApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Git_Hub_Lessons/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +34,12 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="master" />
+    <option name="BRANCH" value="Level_2_Lesson_7" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Level_2_Lesson_3" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +53,7 @@
     </file-type-list>
   </component>
   <component name="GithubProjectSettings">
-    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="Level_2_Lesson_2" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="Vetyugov" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Git_Hub_Lessons" />
   </component>
@@ -64,14 +69,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Level_3_Lesson_2/Client/Server" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4028777" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\Основной курс\GeekBrains_part 1\Git_Hub_Lessons\src\main\java\Level_3_Lesson_2\Client\Server" />
+      <recent name="C:\Java\Основной курс\GeekBrains_part 1\Git_Hub_Lessons\src\main\java\Level_3_Lesson_2\Client" />
+      <recent name="C:\Java\Основной курс\GeekBrains_part 1\Git_Hub_Lessons\src\main\java\Level_3_Lesson_2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Level_2_Lesson_7.Client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Level_2_Lesson_2.Main" />
       <module name="Git_Hub_Lessons" />
@@ -86,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_2_Lesson_1.Main" />
+      <option name="MAIN_CLASS_NAME" value="Level_2_Lesson_5.Main" />
       <module name="Git_Hub_Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Level_2_Lesson_1.*" />
+          <option name="PATTERN" value="Level_2_Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,33 +146,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Task_2" />
       <item itemvalue="Application.Task_4" />
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Task_4" />
         <item itemvalue="Application.Task_2" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +194,12 @@
       <workItem from="1616868266317" duration="11389000" />
       <workItem from="1618346555282" duration="8908000" />
       <workItem from="1618752346427" duration="14650000" />
+      <workItem from="1620391615767" duration="3359000" />
+      <workItem from="1620478650205" duration="25698000" />
+      <workItem from="1621344149913" duration="3378000" />
+      <workItem from="1621363706973" duration="4850000" />
+      <workItem from="1621960081429" duration="867000" />
+      <workItem from="1621960990695" duration="1716000" />
     </task>
     <task id="LOCAL-00001" summary="Homework 1">
       <created>1614846527003</created>
@@ -294,7 +313,35 @@
       <option name="project" value="LOCAL" />
       <updated>1618760638240</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Homework. Java part 2. Lesson 7&#10;Реализованы личные сообщения. Создано 3 приложения, через которые запускаются клиенты пользователей">
+      <created>1620122891100</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620122891100</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Homework. Java part 2. Lesson 8&#10;Реализованы таймаут входа. Подключена графическая часть на swing">
+      <created>1620556670816</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620556670816</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Homework. Java part 3. Lesson 1&#10;Все задания выполнены. Не понял, почему при попытке перемешать коробки с разными фруктами программа всё равно кладёт 1 фрукт в коробку и только потом выбрасывает исключение">
+      <created>1621367165551</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1621367165551</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Homework. Java part 3. Lesson 1&#10;Все задания выполнены.">
+      <created>1621423419261</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621423419261</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +373,10 @@
     <MESSAGE value="Homework. Lesson 7. Сделаны все задания" />
     <MESSAGE value="Homework. Java part 2. Lesson 2" />
     <MESSAGE value="Homework. Java part 2. Lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework. Java part 2. Lesson 3" />
+    <MESSAGE value="Homework. Java part 2. Lesson 7&#10;Реализованы личные сообщения. Создано 3 приложения, через которые запускаются клиенты пользователей" />
+    <MESSAGE value="Homework. Java part 2. Lesson 8&#10;Реализованы таймаут входа. Подключена графическая часть на swing" />
+    <MESSAGE value="Homework. Java part 3. Lesson 1&#10;Все задания выполнены. Не понял, почему при попытке перемешать коробки с разными фруктами программа всё равно кладёт 1 фрукт в коробку и только потом выбрасывает исключение" />
+    <MESSAGE value="Homework. Java part 3. Lesson 1&#10;Все задания выполнены." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework. Java part 3. Lesson 1&#10;Все задания выполнены." />
   </component>
 </project>
