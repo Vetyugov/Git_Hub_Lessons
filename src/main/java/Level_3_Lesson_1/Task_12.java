@@ -28,7 +28,7 @@ public class Task_12 {
         printArray(strArray);
         newArrayList = toArrayList(strArray);
         System.out.print("ArrayList: ");
-        xprintArrayList(newArrayList);
+        printArrayList(newArrayList);
 
     }
 
