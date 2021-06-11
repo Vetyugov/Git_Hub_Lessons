@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b221542-9ff7-4c17-a254-8189b02eb06b" name="Default Changelist" comment="не понял, что произошло">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Level_2_Lesson_5/Main.java" afterDir="false" />
+    <list default="true" id="0b221542-9ff7-4c17-a254-8189b02eb06b" name="Default Changelist" comment="Homework. Java part 3. Lesson 5&#10;Гонки работаю корректно, немного не уверен, что нужно использовать два объекта CountDownLatch, но не нашел, как можно обновить счетчик у этого объекта, чтобы можно было снова использовать .await().">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_6/MainTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_7/MainTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level_3_Lesson_7/SetOfTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Git_Hub_Lessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Git_Hub_Lessons.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +46,7 @@
     </file-type-list>
   </component>
   <component name="GithubProjectSettings">
-    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="Level_2_Lesson_2" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="Vetyugov" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Git_Hub_Lessons" />
   </component>
@@ -52,45 +57,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Network_Chat" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4028777" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_2_Lesson_2.Main" />
-      <module name="Git_Hub_Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Level_2_Lesson_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_2_Lesson_5.Main" />
-      <module name="Git_Hub_Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Level_2_Lesson_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainTestClass">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main1" />
       <module name="Git_Hub_Lessons" />
@@ -98,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_2_Lesson_5.Main" />
+    <configuration name="MainTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level_3_Lesson_7.MainTestClass" />
       <module name="Git_Hub_Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Level_2_Lesson_5.*" />
+          <option name="PATTERN" value="Level_3_Lesson_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.Task_2" />
+    <configuration name="MainTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level_3_Lesson_6.MainTests" />
       <module name="Git_Hub_Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.*" />
+          <option name="PATTERN" value="Level_3_Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_2.Task_4" />
+    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_2.Task_1" />
       <module name="Git_Hub_Lessons" />
       <extension name="coverage">
         <pattern>
@@ -137,20 +120,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_2.Task_3" />
+      <module name="Git_Hub_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Task_4" />
+      <item itemvalue="Application.Task_1" />
+      <item itemvalue="Application.MainTests" />
+      <item itemvalue="Application.Task_3" />
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Task_2" />
+      <item itemvalue="Application.MainTestClass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainTestClass" />
+        <item itemvalue="Application.MainTests" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Task_4" />
-        <item itemvalue="Application.Task_2" />
+        <item itemvalue="Application.Task_3" />
+        <item itemvalue="Application.Task_1" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +181,9 @@
       <workItem from="1616868266317" duration="11389000" />
       <workItem from="1618346555282" duration="8908000" />
       <workItem from="1618752346427" duration="14650000" />
+      <workItem from="1622560954569" duration="7546000" />
+      <workItem from="1623141466395" duration="5895000" />
+      <workItem from="1623404228078" duration="2211000" />
     </task>
     <task id="LOCAL-00001" summary="Homework 1">
       <created>1614846527003</created>
@@ -287,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618760638240</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Homework. Java part 3. Lesson 5&#10;Гонки работаю корректно, немного не уверен, что нужно использовать два объекта CountDownLatch, но не нашел, как можно обновить счетчик у этого объекта, чтобы можно было снова использовать .await().">
+      <created>1622739170037</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622739170037</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +336,7 @@
     <MESSAGE value="Homework. Lesson 7. Сделаны все задания" />
     <MESSAGE value="Homework. Java part 2. Lesson 2" />
     <MESSAGE value="Homework. Java part 2. Lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework. Java part 2. Lesson 3" />
+    <MESSAGE value="Homework. Java part 3. Lesson 5&#10;Гонки работаю корректно, немного не уверен, что нужно использовать два объекта CountDownLatch, но не нашел, как можно обновить счетчик у этого объекта, чтобы можно было снова использовать .await()." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework. Java part 3. Lesson 5&#10;Гонки работаю корректно, немного не уверен, что нужно использовать два объекта CountDownLatch, но не нашел, как можно обновить счетчик у этого объекта, чтобы можно было снова использовать .await()." />
   </component>
 </project>
